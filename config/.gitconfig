@@ -1,0 +1,30 @@
+[user]
+	name = SuperYuro
+	email = a.gpgtdmgp@gmail.com
+
+[credential]
+	helper = manager
+
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+
+[init]
+	defaultBranch = main
+
+[alias]
+	d = diff
+	co = checkout
+	cm = commit
+	br = branch
+	ba = "branch -a"
+	a = add
+	l = log
+	rs = restore
+	cl = clone
+	st = status
+	pl = pull
+	ps = push
+  sh = stash
