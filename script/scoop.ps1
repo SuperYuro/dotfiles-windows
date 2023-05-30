@@ -1,14 +1,12 @@
-Invoke-RestMethod get.scoop.sh | Invoke-Expression
-
-scoop install git sudo
 
 # Font
+scoop install sudo
 scoop bucket add nerd-fonts
 sudo scoop install -g hack-nf-mono
 
-# Misc
 scoop bucket add extras
 
+# Misc
 scoop install gow
 
 # C/C++
