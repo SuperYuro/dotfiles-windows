@@ -28,3 +28,6 @@
 	pl = pull
 	ps = push
   sh = stash
+	sw = switch
+[credential "helperselector"]
+	selected = manager
