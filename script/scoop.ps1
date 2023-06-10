@@ -19,7 +19,7 @@ scoop install go
 scoop install python
 
 # Neovim
-scoop install neovim tree-sitter ripgrep
+scoop install neovim tree-sitter ripgrep zig
 
 # Nodejs
 scoop install nodejs
