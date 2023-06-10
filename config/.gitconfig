@@ -31,3 +31,5 @@
 	sw = switch
 [credential "helperselector"]
 	selected = manager
+[pull]
+	rebase = false
