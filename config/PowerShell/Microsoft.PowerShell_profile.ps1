@@ -1,6 +1,3 @@
-# Prompt
-# oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\fish.omp.json" | Invoke-Expression
-
 # PSReadLine
 Import-Module PSReadLine
 Set-PSReadLineOption -EditMode Emacs
@@ -15,3 +12,12 @@ Set-Alias c cd
 Set-Alias v nvim
 Set-Alias g git
 Set-Alias th New-Item
+
+function ghq-list {
+  $root = ghq root
+  $repo = ghq list | peco
+  Set-Location (Join-Path $root $repo)
+}
+
+Set-Alias ghl ghq-list
+Set-Alias lg lazygit
