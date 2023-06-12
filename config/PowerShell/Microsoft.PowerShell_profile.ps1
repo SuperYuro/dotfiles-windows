@@ -13,11 +13,18 @@ Set-Alias v nvim
 Set-Alias g git
 Set-Alias th New-Item
 
-function ghq-list {
-  $root = ghq root
+function goto-ghq-repository {
   $repo = ghq list | peco
-  Set-Location (Join-Path $root $repo)
+  $root = ghq root
+
+  if($repo){
+      Set-Location (Join-Path $root $repo)
+  }
+  else
+  {
+    Set-Location ".\"
+  }
 }
 
-Set-Alias ghl ghq-list
+Set-Alias ghl goto-ghq-repository
 Set-Alias lg lazygit
