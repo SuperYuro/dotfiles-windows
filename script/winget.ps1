@@ -4,13 +4,10 @@ winget install Obsidian.Obsidian
 
 # IDE
 winget install Microsoft.VisualStudio.2022.Community
-winget install Jetbrains.Toolbox
+winget install Microsoft.SQLServerManagementStudio
 
 # Editor
 winget install Microsoft.VisualStudioCode
-
-# GitHub
-winget install GitHub.GitHubDesktop
 
 # Rust
 winget install rustlang.rustup
@@ -19,6 +16,7 @@ winget install rustlang.rustup
 winget install Docker.DockerDesktop
 
 # Utilities
+winget install 7zip.7zip
 winget install Microsoft.PowerToys
 
 # Shell
