@@ -21,8 +21,9 @@ scoop install go
 # Python
 scoop install python
 
-# Neovim
+# Editor
 scoop install neovim tree-sitter ripgrep zig
+scoop install emacs
 
 # Nodejs
 scoop install nvm
