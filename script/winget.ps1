@@ -5,12 +5,15 @@ winget install Obsidian.Obsidian
 # IDE
 winget install Microsoft.VisualStudio.2022.Community
 winget install Microsoft.SQLServerManagementStudio
+winget install Jetbrains.Toolbox
+winget install ArduinoSA.IDE.stable
 
 # Editor
+winget install Kuro.Mery
 winget install Microsoft.VisualStudioCode
 
 # Rust
-winget install rustlang.rustup
+winget install Rustlang.Rustup
 
 # Docker
 winget install Docker.DockerDesktop
@@ -23,9 +26,11 @@ winget install Microsoft.PowerToys
 winget install Microsoft.PowerShell
 winget install JanDeDobbeleer.OhMyPosh
 
-# Browser
-winget install Mozilla.Firefox
-winget install Google.Chrome
+# Communication
+winget install Discord.Discord
+
+# Circuit design
+winget install Autodesk.EAGLE
 
 # Office
 winget install Microsoft.Office
