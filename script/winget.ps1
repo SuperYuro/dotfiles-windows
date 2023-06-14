@@ -21,6 +21,7 @@ winget install Docker.DockerDesktop
 # Utilities
 winget install 7zip.7zip
 winget install Microsoft.PowerToys
+winget install GitHub.GitHubDesktop
 
 # Shell
 winget install Microsoft.PowerShell
