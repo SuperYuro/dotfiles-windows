@@ -4,7 +4,7 @@ winget install Obsidian.Obsidian
 
 # IDE
 winget install Microsoft.VisualStudio.2022.Community
-winget install Microsoft.SQLServerManagementStudio
+# winget install Microsoft.SQLServerManagementStudio
 winget install Jetbrains.Toolbox
 winget install ArduinoSA.IDE.stable
 
@@ -35,8 +35,8 @@ winget install GitHub.GitHubDesktop
 winget install Microsoft.PowerShell
 winget install JanDeDobbeleer.OhMyPosh
 
-# Communication
-winget install Discord.Discord
+# Browser
+winget install VivaldiTechnologies.Vivaldi
 
 # Circuit design
 winget install Autodesk.EAGLE
