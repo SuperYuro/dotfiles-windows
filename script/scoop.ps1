@@ -10,16 +10,16 @@ scoop bucket add extras
 scoop install gow peco
 
 # Git
-scoop install ghq lazygit
+scoop install lazygit
 
 # C/C++
-scoop install gcc gdb llvm clangd
+scoop install gcc gdb llvm
 
 # Go
 scoop install go
 
 # Editor
-scoop install neovim tree-sitter ripgrep zig
+scoop install neovim
 scoop install emacs
 
 # Nodejs
