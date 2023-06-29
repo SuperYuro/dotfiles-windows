@@ -18,9 +18,6 @@ scoop install gcc gdb llvm clangd
 # Go
 scoop install go
 
-# Python
-scoop install python
-
 # Editor
 scoop install neovim tree-sitter ripgrep zig
 scoop install emacs

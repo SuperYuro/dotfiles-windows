@@ -12,6 +12,14 @@ winget install ArduinoSA.IDE.stable
 winget install Kuro.Mery
 winget install Microsoft.VisualStudioCode
 
+# Python
+winget install Python.Python.3.11
+winget install Python.Python.3.10
+winget install Python.Python.3.9
+winget install Python.Python.3.8
+winget install Python.Python.3.7
+winget install Python.Python.3.6
+
 # Rust
 winget install Rustlang.Rustup
 
