@@ -1,4 +1,3 @@
-
 # Font
 scoop install sudo
 scoop bucket add nerd-fonts
@@ -15,12 +14,9 @@ scoop install lazygit
 # C/C++
 scoop install gcc gdb llvm
 
-# Go
-scoop install go
-
 # Editor
 scoop install neovim
-scoop install emacs
+# scoop install emacs
 
 # Nodejs
 scoop install nvm
