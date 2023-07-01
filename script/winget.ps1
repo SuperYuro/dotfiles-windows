@@ -1,10 +1,13 @@
+# Enable force install when hash does not match
+sudo winget settings --enable InstallerHashOverride
+
 # Note taiking app
 winget install Automattic.Simplenote
 winget install Obsidian.Obsidian
 
 # IDE
 winget install Microsoft.VisualStudio.2022.Community
-# winget install Microsoft.SQLServerManagementStudio
+winget install Microsoft.SQLServerManagementStudio
 winget install Jetbrains.Toolbox
 winget install ArduinoSA.IDE.stable
 
@@ -13,12 +16,22 @@ winget install Kuro.Mery
 winget install Microsoft.VisualStudioCode
 
 # Python
+winget uninstall Python.Python.3.11 --purge
+winget uninstall Python.Python.3.10 --purge
+winget uninstall Python.Python.3.9 --purge
+winget uninstall Python.Python.3.8 --purge
+winget uninstall Python.Python.3.7 --purge
+winget uninstall Python.Python.3.6 --purge
+
 winget install Python.Python.3.11
 winget install Python.Python.3.10
 winget install Python.Python.3.9
 winget install Python.Python.3.8
 winget install Python.Python.3.7
 winget install Python.Python.3.6
+
+# Go
+winget install Golang.Go
 
 # Rust
 winget install Rustlang.Rustup
@@ -34,9 +47,6 @@ winget install GitHub.GitHubDesktop
 # Shell
 winget install Microsoft.PowerShell
 winget install JanDeDobbeleer.OhMyPosh
-
-# Browser
-winget install VivaldiTechnologies.Vivaldi
 
 # Circuit design
 winget install Autodesk.EAGLE
