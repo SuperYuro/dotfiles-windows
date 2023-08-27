@@ -12,23 +12,6 @@ winget install ArduinoSA.IDE.stable
 winget install Kuro.Mery
 winget install Microsoft.VisualStudioCode
 
-# Python
-winget uninstall Python.Python.3.12 --purge
-winget uninstall Python.Python.3.11 --purge
-winget uninstall Python.Python.3.10 --purge
-winget uninstall Python.Python.3.9 --purge
-winget uninstall Python.Python.3.8 --purge
-winget uninstall Python.Python.3.7 --purge
-winget uninstall Python.Python.3.6 --purge
-
-winget install Python.Python.3.12
-winget install Python.Python.3.11
-winget install Python.Python.3.10
-winget install Python.Python.3.9
-winget install Python.Python.3.8
-winget install Python.Python.3.7
-winget install Python.Python.3.6
-
 # Go
 winget install Golang.Go
 
@@ -46,9 +29,6 @@ winget install GitHub.GitHubDesktop
 # Shell
 winget install Microsoft.PowerShell
 winget install JanDeDobbeleer.OhMyPosh
-
-# Circuit design
-winget install Autodesk.EAGLE
 
 # Office
 winget install Microsoft.Office
