@@ -1,24 +1,25 @@
 # Font
 scoop install sudo
-scoop bucket add nerd-fonts
-sudo scoop install -g hack-nf-mono
+# scoop bucket add nerd-fonts
+# sudo scoop install -g hack-nf-mono
 
 scoop bucket add extras
 
 # Misc
-scoop install gow peco
+scoop install gow
 
 # Git
-scoop install lazygit
+# scoop install lazygit
 
 # C/C++
 scoop install gcc gdb llvm
 
 # Editor
-scoop install neovim
+# scoop install neovim
 # scoop install emacs
 
 # Nodejs
+scoop install yarn
 scoop install nvm
 nvm install lts
 nvm use lts

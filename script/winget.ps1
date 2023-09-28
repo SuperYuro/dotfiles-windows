@@ -5,11 +5,10 @@ winget install Obsidian.Obsidian
 # IDE
 winget install Microsoft.VisualStudio.2022.Community
 winget install Microsoft.SQLServerManagementStudio
-winget install Google.AndroidStudio
+winget install JetBrains.Toolbox
 winget install ArduinoSA.IDE.stable
 
 # Editor
-winget install Kuro.Mery
 winget install Microsoft.VisualStudioCode
 
 # Go
@@ -28,7 +27,7 @@ winget install GitHub.GitHubDesktop
 
 # Shell
 winget install Microsoft.PowerShell
-winget install JanDeDobbeleer.OhMyPosh
+# winget install JanDeDobbeleer.OhMyPosh
 
 # Office
 winget install Microsoft.Office
