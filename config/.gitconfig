@@ -1,19 +1,15 @@
 [user]
 	name = SuperYuro
 	email = a.gpgtdmgp@gmail.com
-
 [credential]
 	helper = manager
-
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
-
 [init]
 	defaultBranch = main
-
 [alias]
 	d = diff
 	co = checkout
@@ -27,9 +23,17 @@
 	st = status
 	pl = pull
 	ps = push
-  sh = stash
+	sh = "stash"
 	sw = switch
 [credential "helperselector"]
 	selected = manager
 [pull]
 	rebase = false
+[core]
+	editor = \"C:/Program Files (x86)/GitExtensions/GitExtensions.exe\" fileeditor
+[fetch]
+	prune = false
+[rebase]
+	autoStash = false
+	autosquash = false
+	updateRefs = false
