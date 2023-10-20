@@ -1,5 +1,5 @@
 # Prompt
-# oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\hotstick.minimal.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\hotstick.minimal.omp.json" | Invoke-Expression
 
 # PSReadLine
 Import-Module PSReadLine
@@ -16,18 +16,18 @@ Set-Alias v nvim
 Set-Alias g git
 Set-Alias th New-Item
 
-# function goto-ghq-repository {
-#   $repo = ghq list | peco
-#   $root = ghq root
+function goto-ghq-repository {
+  $repo = ghq list | peco
+  $root = ghq root
 
-#   if($repo){
-#       Set-Location (Join-Path $root $repo)
-#   }
-#   else
-#   {
-#     Set-Location ".\"
-#   }
-# }
+  if($repo){
+      Set-Location (Join-Path $root $repo)
+  }
+  else
+  {
+    Set-Location ".\"
+  }
+}
 
-# Set-Alias ghl goto-ghq-repository
-# Set-Alias lg lazygit
+Set-Alias ghl goto-ghq-repository
+Set-Alias lg lazygit
