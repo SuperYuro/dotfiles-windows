@@ -1,7 +1,7 @@
 # Font
 scoop install sudo
-# scoop bucket add nerd-fonts
-# sudo scoop install -g hack-nf-mono
+scoop bucket add nerd-fonts
+sudo scoop install -g hack-nf hack-nf-mono
 
 scoop bucket add extras
 
@@ -9,7 +9,7 @@ scoop bucket add extras
 scoop install gow
 
 # Git
-# scoop install lazygit
+scoop install git ghq lazygit
 
 # C/C++
 scoop install gcc gdb llvm
