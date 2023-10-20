@@ -1,4 +1,4 @@
 [wsl2]
-memory = 32GB
+memory = 16GB
 swap = 0
 guiApplications = true
