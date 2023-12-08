@@ -1,3 +1,3 @@
-.\script\scoop.ps1
+scoop import .\config\scoop.json
 .\script\configure.ps1
-.\script\winget.ps1
+winget import -i .\config\winget.json
