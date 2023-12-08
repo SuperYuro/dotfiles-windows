@@ -31,3 +31,10 @@ function goto-ghq-repository {
 
 Set-Alias ghl goto-ghq-repository
 Set-Alias lg lazygit
+
+function DuplicateTab {
+    $currentPath = Get-Location
+    wt -w 0 nt -d $currentPath
+}
+
+Set-Alias tm DuplicateTab
