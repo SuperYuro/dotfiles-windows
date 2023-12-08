@@ -10,31 +10,38 @@ Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 
 # Alias
-Set-Alias la ls
+$ConfigDir="$HOME\Documents\PowerShell"
+$LsdConfig="$ConfigDir\lsd.ps1"
+
+. $LsdConfig
+
 Set-Alias c cd
 Set-Alias v nvim
 Set-Alias g git
 Set-Alias th New-Item
 
-function goto-ghq-repository {
-  $repo = ghq list | peco
-  $root = ghq root
+function GotoGhqRepository
+{
+    $repo = ghq list | peco
+    $root = ghq root
 
-  if($repo){
-      Set-Location (Join-Path $root $repo)
-  }
-  else
-  {
-    Set-Location ".\"
-  }
+    if($repo)
+    {
+        Set-Location (Join-Path $root $repo)
+    } else
+    {
+        Set-Location ".\"
+    }
 }
 
-Set-Alias ghl goto-ghq-repository
+Set-Alias ghl GotoGhqRepository
 Set-Alias lg lazygit
 
-function DuplicateTab {
+function DuplicateTab
+{
     $currentPath = Get-Location
     wt -w 0 nt -d $currentPath
 }
 
 Set-Alias tm DuplicateTab
+
