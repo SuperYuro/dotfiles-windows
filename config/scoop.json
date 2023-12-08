@@ -1,0 +1,145 @@
+{
+  "apps": [
+    {
+      "Info": "",
+      "Version": "23.01",
+      "Updated": "2023-11-17T17:25:52.2931769+09:00",
+      "Source": "main",
+      "Name": "7zip"
+    },
+    {
+      "Info": "",
+      "Version": "0.24.0",
+      "Updated": "2023-12-04T11:47:32.435152+09:00",
+      "Source": "main",
+      "Name": "bat"
+    },
+    {
+      "Info": "",
+      "Version": "1.38.1",
+      "Updated": "2023-11-17T17:34:16.167654+09:00",
+      "Source": "main",
+      "Name": "deno"
+    },
+    {
+      "Info": "",
+      "Version": "8.7.1",
+      "Updated": "2023-11-20T16:41:56.2407834+09:00",
+      "Source": "main",
+      "Name": "fd"
+    },
+    {
+      "Info": "",
+      "Version": "11.2.0",
+      "Updated": "2023-11-17T17:32:02.4262183+09:00",
+      "Source": "main",
+      "Name": "gcc"
+    },
+    {
+      "Info": "",
+      "Version": "11.1",
+      "Updated": "2023-11-17T17:32:29.6809882+09:00",
+      "Source": "main",
+      "Name": "gdb"
+    },
+    {
+      "Info": "",
+      "Version": "2.42.0.2",
+      "Updated": "2023-11-17T17:26:12.6719717+09:00",
+      "Source": "main",
+      "Name": "git"
+    },
+    {
+      "Info": "",
+      "Version": "0.8.0",
+      "Updated": "2023-11-17T17:31:30.0515872+09:00",
+      "Source": "main",
+      "Name": "gow"
+    },
+    {
+      "Info": "",
+      "Version": "0.40.2",
+      "Updated": "2023-11-22T12:50:05.9830295+09:00",
+      "Source": "extras",
+      "Name": "lazygit"
+    },
+    {
+      "Info": "",
+      "Version": "17.0.5",
+      "Updated": "2023-11-17T17:33:52.9260103+09:00",
+      "Source": "main",
+      "Name": "llvm"
+    },
+    {
+      "Info": "",
+      "Version": "1.0.0",
+      "Updated": "2023-12-04T11:47:33.8217331+09:00",
+      "Source": "main",
+      "Name": "lsd"
+    },
+    {
+      "Info": "",
+      "Version": "0.9.4",
+      "Updated": "2023-12-04T11:53:07.6030467+09:00",
+      "Source": "main",
+      "Name": "neovim"
+    },
+    {
+      "Info": "",
+      "Version": "20.10.0",
+      "Updated": "2023-12-08T23:00:38.5186542+09:00",
+      "Source": "main",
+      "Name": "nodejs-lts"
+    },
+    {
+      "Info": "",
+      "Version": "1.1.11",
+      "Updated": "2023-11-17T17:33:54.8526042+09:00",
+      "Source": "main",
+      "Name": "nvm"
+    },
+    {
+      "Info": "",
+      "Version": "13.0.0",
+      "Updated": "2023-11-20T16:41:57.4168245+09:00",
+      "Source": "main",
+      "Name": "ripgrep"
+    },
+    {
+      "Info": "",
+      "Version": "0.2020.01.26",
+      "Updated": "2023-11-17T17:31:08.8942298+09:00",
+      "Source": "main",
+      "Name": "sudo"
+    },
+    {
+      "Info": "",
+      "Version": "14.38.33130.0",
+      "Updated": "2023-11-20T16:42:16.9714303+09:00",
+      "Source": "extras",
+      "Name": "vcredist2022"
+    },
+    {
+      "Info": "",
+      "Version": "1.22.19",
+      "Updated": "2023-11-17T17:34:08.1171535+09:00",
+      "Source": "main",
+      "Name": "yarn"
+    }
+  ],
+  "buckets": [
+    {
+      "Name": "extras",
+      "Source": "https://github.com/ScoopInstaller/Extras",
+      "Updated": "2023-12-08T22:58:59+09:00",
+      "Manifests": 1889
+    },
+    {
+      "Name": "main",
+      "Source": "https://github.com/ScoopInstaller/Main",
+      "Updated": "2023-12-08T22:54:57+09:00",
+      "Manifests": 1265
+    }
+  ]
+}
+
