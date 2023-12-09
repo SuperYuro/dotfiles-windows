@@ -1,6 +1,6 @@
 if(Get-Command lsd -ErrorAction SilentlyContinue)
 {
-    # Set-Alias -Name ls -Value lsd
+    Set-Alias -Name ls -Value lsd
     function Global:lt
     { 
         lsd --tree $args
