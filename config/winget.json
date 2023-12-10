@@ -1,14 +1,23 @@
 {
   "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
-  "CreationDate": "2023-12-08T22:54:25.089-00:00",
+  "CreationDate": "2023-12-10T13:24:33.167-00:00",
   "Sources": [
     {
       "Packages": [
+        {
+          "PackageIdentifier": "Microsoft.VisualStudio.2022.Community"
+        },
+        {
+          "PackageIdentifier": "7zip.7zip"
+        },
         {
           "PackageIdentifier": "Discord.Discord"
         },
         {
           "PackageIdentifier": "Docker.DockerDesktop"
+        },
+        {
+          "PackageIdentifier": "voidtools.Everything"
         },
         {
           "PackageIdentifier": "GitHub.GitHubDesktop"
@@ -29,16 +38,16 @@
           "PackageIdentifier": "Automattic.Simplenote"
         },
         {
-          "PackageIdentifier": "Google.Chrome"
-        },
-        {
-          "PackageIdentifier": "7zip.7zip"
+          "PackageIdentifier": "SlackTechnologies.Slack"
         },
         {
           "PackageIdentifier": "Microsoft.PowerToys"
         },
         {
           "PackageIdentifier": "GoLang.Go"
+        },
+        {
+          "PackageIdentifier": "Google.Chrome"
         },
         {
           "PackageIdentifier": "Microsoft.VisualStudioCode"
@@ -58,19 +67,6 @@
         "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
         "Name": "winget",
         "Type": "Microsoft.PreIndexed.Package"
-      }
-    },
-    {
-      "Packages": [
-        {
-          "PackageIdentifier": "9PGCV4V3BK4W"
-        }
-      ],
-      "SourceDetails": {
-        "Argument": "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
-        "Identifier": "StoreEdgeFD",
-        "Name": "msstore",
-        "Type": "Microsoft.Rest"
       }
     }
   ],
