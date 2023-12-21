@@ -1,6 +1,6 @@
 {
   "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
-  "CreationDate": "2023-12-10T13:24:33.167-00:00",
+  "CreationDate": "2023-12-21T23:50:27.567-00:00",
   "Sources": [
     {
       "Packages": [
@@ -23,6 +23,9 @@
           "PackageIdentifier": "GitHub.GitHubDesktop"
         },
         {
+          "PackageIdentifier": "Mozilla.Firefox"
+        },
+        {
           "PackageIdentifier": "Microsoft.Office"
         },
         {
@@ -30,6 +33,9 @@
         },
         {
           "PackageIdentifier": "Rustlang.Rustup"
+        },
+        {
+          "PackageIdentifier": "JetBrains.Toolbox"
         },
         {
           "PackageIdentifier": "Obsidian.Obsidian"
@@ -41,7 +47,7 @@
           "PackageIdentifier": "SlackTechnologies.Slack"
         },
         {
-          "PackageIdentifier": "Microsoft.PowerToys"
+          "PackageIdentifier": "Microsoft.OpenJDK.17"
         },
         {
           "PackageIdentifier": "GoLang.Go"
@@ -56,10 +62,16 @@
           "PackageIdentifier": "ArduinoSA.IDE.stable"
         },
         {
+          "PackageIdentifier": "Mojang.MinecraftLauncher"
+        },
+        {
           "PackageIdentifier": "Microsoft.PowerShell"
         },
         {
           "PackageIdentifier": "Python.Python.3.12"
+        },
+        {
+          "PackageIdentifier": "Microsoft.PowerToys"
         }
       ],
       "SourceDetails": {
@@ -70,7 +82,5 @@
       }
     }
   ],
-  "WinGetVersion": "1.6.3133"
+  "WinGetVersion": "1.6.3482"
 }
-
-
