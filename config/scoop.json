@@ -9,24 +9,10 @@
     },
     {
       "Info": "",
-      "Version": "0.24.0",
-      "Updated": "2023-12-04T11:47:32.435152+09:00",
-      "Source": "main",
-      "Name": "bat"
-    },
-    {
-      "Info": "",
       "Version": "1.38.1",
       "Updated": "2023-11-17T17:34:16.167654+09:00",
       "Source": "main",
       "Name": "deno"
-    },
-    {
-      "Info": "",
-      "Version": "8.7.1",
-      "Updated": "2023-11-20T16:41:56.2407834+09:00",
-      "Source": "main",
-      "Name": "fd"
     },
     {
       "Info": "",
@@ -44,45 +30,10 @@
     },
     {
       "Info": "",
-      "Version": "2.42.0.2",
-      "Updated": "2023-11-17T17:26:12.6719717+09:00",
-      "Source": "main",
-      "Name": "git"
-    },
-    {
-      "Info": "",
       "Version": "0.8.0",
       "Updated": "2023-11-17T17:31:30.0515872+09:00",
       "Source": "main",
       "Name": "gow"
-    },
-    {
-      "Info": "",
-      "Version": "0.40.2",
-      "Updated": "2023-11-22T12:50:05.9830295+09:00",
-      "Source": "extras",
-      "Name": "lazygit"
-    },
-    {
-      "Info": "",
-      "Version": "17.0.5",
-      "Updated": "2023-11-17T17:33:52.9260103+09:00",
-      "Source": "main",
-      "Name": "llvm"
-    },
-    {
-      "Info": "",
-      "Version": "1.0.0",
-      "Updated": "2023-12-04T11:47:33.8217331+09:00",
-      "Source": "main",
-      "Name": "lsd"
-    },
-    {
-      "Info": "",
-      "Version": "0.9.4",
-      "Updated": "2023-12-04T11:53:07.6030467+09:00",
-      "Source": "main",
-      "Name": "neovim"
     },
     {
       "Info": "",
@@ -97,13 +48,6 @@
       "Updated": "2023-11-17T17:33:54.8526042+09:00",
       "Source": "main",
       "Name": "nvm"
-    },
-    {
-      "Info": "",
-      "Version": "13.0.0",
-      "Updated": "2023-11-20T16:41:57.4168245+09:00",
-      "Source": "main",
-      "Name": "ripgrep"
     },
     {
       "Info": "",
@@ -142,4 +86,3 @@
     }
   ]
 }
-
